@@ -46,7 +46,7 @@ Here you need to identify the schema/model fields by observing the UIs, The goal
 
 ### Coding Guidelines
 
-- Please fork current problem repository or use it as template and, add [@divynash420](https://github.com/divyansh420),[@nitesh5695smilebots](https://github.com/nitesh5695smilebots) as collaborator while intializing repository in github. and follow the given timeline instructions from your mail.
+- Please fork current problem repository or use it as template and, add [@divyansh420](https://github.com/divyansh420),[@nitesh5695smilebots](https://github.com/nitesh5695smilebots) as collaborator while intializing repository in github. and follow the given timeline instructions from your mail.
 - The changes/commits will not be considered after timeline mentioned in your mail.
 - Please avoid any frameworks and libraries except **_Django REST framework_**.
 - Focus more on the **_Django REST framework_** side of the problem.
