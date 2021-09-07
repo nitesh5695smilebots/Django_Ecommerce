@@ -3,8 +3,8 @@ Don't bother about UIs, we're here for APIs_,
 Here you need to identify the schema/model fields by observing the UIs, The goal of this assignment is to build **_API_** for a **E-Commerce website** site in which you are free to play with as much as possible your sample data.
 
 <img src="items.png" />
-<img src="reviews.png" />
-<img src="orders.png" />
+<img src="review.png" />
+<img src="order.png" />
 
 <hr>
 
