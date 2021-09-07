@@ -5,6 +5,10 @@ Here you need to identify the schema/model fields by observing the UIs, The goal
 <img src="items.png" />
 <img src="review.png" />
 <img src="orders.png" />
+-----
+-
+-
+-
 
 <hr>
 
