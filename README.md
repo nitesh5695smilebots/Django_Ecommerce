@@ -52,6 +52,7 @@ Here you need to identify the schema/model fields by observing the UIs, The goal
 - Focus more on the **_Django REST framework_** side of the problem.
 - After fork do not public the repo
 - You need to add requirements.txt file in project
+- add  a readme.md file and add all details about your APIs.
 - You will be evaluated on a **WORKING PROJECT** for:
   - Modularity of Code
   - Security
