@@ -58,4 +58,3 @@ Here you need to identify the schema/model fields by observing the UIs, The goal
   - Completeness.
 - Please ask us for any hurdle in your problem assignment.
 
-1.
