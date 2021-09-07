@@ -1,4 +1,4 @@
-# Django_test_
+# Django_test(E-Commerce API)
 Don't bother about UIs, we're here for APIs_,
 Here you need to identify the schema/model fields by observing the UIs, The goal of this assignment is to build **_API_** for a **E-Commerce website** site in which you are free to play with as much as possible your sample data.
 
