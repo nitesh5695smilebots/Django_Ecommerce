@@ -26,13 +26,14 @@ Here you need to identify the schema/model fields by observing the UIs, The goal
 - students can solve assignement and upload that in pdf/jpg format.
 - Teacher can check assignment and mark as completed. 
 
-3. Announcements
--A teacher can add announcement(e.g: holidays, events etc)
--that announcement  will be shown for every student of a class
+3. Announcements <br>
+
+- A teacher can add announcement(e.g: holidays, events etc).
+- that announcement  will be shown for every student of a class.
 
 
 
-5. Authentication 
+4. Authentication 
 - Login (mandatory)
 - Logout(optional)
 - Signup (optional)
@@ -59,5 +60,5 @@ Here you need to identify the schema/model fields by observing the UIs, The goal
   - Completeness.
 - Please ask us for any hurdle in your problem assignment.
 
-<b>Note: <b> please use sqlite databse and tables should be relate to other tables. 
+<b>Note: <b> please use sqlite database and tables should be relate to other tables. 
 
