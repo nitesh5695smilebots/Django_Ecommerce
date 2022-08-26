@@ -14,32 +14,28 @@ Here you need to identify the schema/model fields by observing the UIs, The goal
 
 ### API Features:
 
-1. User login for customer and seller.
+1. User login for student and class teacher.
 
-- A customer can see only items.(use permission and authentication)
-- A seller can upload items detail.
+- A student can see assignments and marks.(use permission and authentication)
+- A class teacher can create class and add students in that class.
 
-2. Items
+2. Assignment
 
-- A seller can Create, Delete, Get a list of all items that he published,
-- Get single item with all the reviews with ratings.( apply for seller and customer both)
+- A teacher can Create, Delete and Get all assignments that assigned  by him.
+- if a teacher add assignment in a class then it must be accessible for all students of same class.
+- students can solve assignement and upload that in pdf/jpg format.
+- Teacher can check assignment and mark as completed. 
 
-3. Review
+3. Announcements
+-A teacher can add announcement(e.g: holidays, events etc)
+-that announcement  will be shown for every student of a class
 
-- Riview on a item.
 
-4. Ratings
 
-- Rating on a item.
-
-5.create order
--A customer can create order (Hints:create api where customer post all details (e.g address, item name ,contact detail etc) 
-
-5. Authentication (Optional)
-
-- Login
-- Logout
-- Signup
+5. Authentication 
+- Login (mandatory)
+- Logout(optional)
+- Signup (ooptional)
 
 
 <hr>
