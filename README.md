@@ -16,7 +16,7 @@ Here you need to identify the schema/model fields by observing the UIs, The goal
 
 1. User login for student and class teacher.
 
-- A student can see assignments and marks.(use permission and authentication)
+- A student can see only his assignments and announcements.(use permission and authentication)
 - A class teacher can create class and add students in that class.
 
 2. Assignment
@@ -35,7 +35,7 @@ Here you need to identify the schema/model fields by observing the UIs, The goal
 5. Authentication 
 - Login (mandatory)
 - Logout(optional)
-- Signup (ooptional)
+- Signup (optional)
 
 
 <hr>
@@ -58,4 +58,6 @@ Here you need to identify the schema/model fields by observing the UIs, The goal
   - Logic and cleanliness of code.
   - Completeness.
 - Please ask us for any hurdle in your problem assignment.
+
+<b>Note: <b> please use sqlite databse and tables should be relate to other tables. 
 
