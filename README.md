@@ -1,7 +1,7 @@
 # Django_test(class management API)
 
 Don't bother about UIs, we're here for APIs,
-Here you need to identify the schema/model fields by observing the UIs, The goal of this assignment is to build **_API_** for a **Class Management** site in which you are free to play with as much as possible your sample data.
+Here you need to identify the schema/model fields by observing the UIs, The goal of this assignment is to build **_API_** for a **Car Rental** site in which you are free to play with as much as possible your sample data.
 
 <img src="class_mng1.png" />
 <img src="classmng2.png" />
@@ -12,22 +12,20 @@ Here you need to identify the schema/model fields by observing the UIs, The goal
 
 ### API Features:
 
-1. User login for student and class teacher.
+1. User login for renter and car owner.
 
-- A student can see only his assignments and announcements.(use permissions and authentication)
-- A class teacher can create class and add students in that class.
+2. Vehicle owner
 
-2. Assignment
+- owner can add,update multiples vehicles (fields= car_model,colour,fuel_type,car images,price per hour, is_available etc) 
+- owner can update and view only his vehicles(use permissions)
+- owner can accept or reject renter request( in case any renter choose his vehicle for rent).
+- owner can check all rent history for his vehicles.
 
-- A teacher can Create, Delete and Get all assignments that are assigned by him.
-- If a teacher add assignment in a class then it must be accessible for all students of same class.
-- students can solve assignement and upload that in pdf/jpg format.
-- Teacher can check assignment and mark them as completed.
+3. Renter(user) <br>
 
-3. Announcements <br>
-
-- A teacher can add announcement(e.g: holidays, events etc).
-- That announcement will be shown for every student of a class.
+- user can see all vehicles with details(e.g price,image,fuel_type etc)  .
+- user can request for any car that he choose.
+-user can check his rent history 
 
 4. Authentication
 
@@ -35,6 +33,9 @@ Here you need to identify the schema/model fields by observing the UIs, The goal
 - Logout(optional)
 - Signup (optional)
 
+5.Create Logs
+ -whenever any user login , a log should be generate in login_logs table(model) (fields=user,user_type,login_at )
+ Note: Use signals to create logs
 <hr>
 
 ### Coding Guidelines
