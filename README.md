@@ -1,10 +1,10 @@
-# Django_test(class management API)
+# Django_test(Vehicle Rental API)
 
 Don't bother about UIs, we're here for APIs,
-Here you need to identify the schema/model fields by observing the UIs, The goal of this assignment is to build **_API_** for a **Car Rental** site in which you are free to play with as much as possible your sample data.
+Here you need to identify the schema/model fields by observing the UIs, The goal of this assignment is to build **_API_** for a **Vehicle Rental** site in which you are free to play with as much as possible your sample data.
 
-<img src="class_mng1.png" />
-<img src="classmng2.png" />
+<img src="car_rental1.png" />
+<img src="car_rental2.png" />
 
 ---
 
@@ -34,8 +34,8 @@ Here you need to identify the schema/model fields by observing the UIs, The goal
 - Signup (optional)
 
 5.Create Logs
- -whenever any user login , a log should be generate in login_logs table(model) (fields=user,user_type,login_at )
- Note: Use signals to create logs
+ -whenever any user login , a log should be generate in login_logs table(model) (fields=user,user_type,login_at )<br>
+ <b>Note<b>: Use signals to create logs
 <hr>
 
 ### Coding Guidelines
